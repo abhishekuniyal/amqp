@@ -4,7 +4,7 @@
 * Messaging increases loose coupling and scalability
 
 
-producer can send routing key to excahange. And excahnege which is binded with the queues might decide based on routingkey==binding key AND EXCAHNGE TYPE.
+producer can send routing key to exchnge. And exchange which is binded with the queues might decide based on routingkey==binding key AND EXCAHNGE TYPE.
 
 
 						      Queue2
