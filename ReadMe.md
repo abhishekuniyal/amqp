@@ -4,6 +4,7 @@
 * Messaging increases loose coupling and scalability
 
 
+
 producer can send routing key to exchnge. And exchange which is binded with the queues might decide based on routingkey==binding key AND EXCAHNGE TYPE.
 
 
@@ -32,6 +33,9 @@ routing key=task.iclear.app
 	==> binding Q2= *.app2.*
 
 above example will pass queu to Q1 only	
+
+Important** JMS vs AMQP
+https://www.linkedin.com/pulse/jms-vs-amqp-eran-shaham/
 
 
 ****************************************To Run the project****************************
